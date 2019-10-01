@@ -526,7 +526,7 @@ int main(void){
 	Vector a = SymmetricAtimesb(g, b);
 	std::cout << "Now we see the result of symmetric matrix (vector g) times vextor b, we can check the rusult on Matlab too" << std::endl;
 	DisplayVector(a);
-
+	std::cout << "hello world!" << std::endl;
 	
 	//Matrix Z, P, T;
 	//Vector s;
