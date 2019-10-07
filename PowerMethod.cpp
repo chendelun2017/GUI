@@ -495,7 +495,7 @@ int main(void){
 	std::cout << "Now we see the (column "<< j << ") of G " << std::endl;				// read column of G	
 	DisplayVector(ReadSymmetricColumns(g, j));
 
-	std::cout << "Now we see the (row " << j << ") of G " << std::endl;				// read row of G	
+	std::cout << "Now we see the (row " << i << ") of G " << std::endl;				// read row of G	
 	DisplayVector(ReadSymmetricRows(g, i));
 
 	std::cout << "Now we see the matrix B" << std::endl;
@@ -526,7 +526,6 @@ int main(void){
 	Vector a = SymmetricAtimesb(g, b);
 	std::cout << "Now we see the result of symmetric matrix (vector g) times vextor b, we can check the rusult on Matlab too" << std::endl;
 	DisplayVector(a);
-	std::cout << "hello world!" << std::endl;
 	
 	//Matrix Z, P, T;
 	//Vector s;
