@@ -527,6 +527,7 @@ int main(void){
 	std::cout << "Now we see the result of symmetric matrix (vector g) times vextor b, we can check the rusult on Matlab too" << std::endl;
 	DisplayVector(a);
 	
+	
 	//Matrix Z, P, T;
 	//Vector s;
 	//int rows = 100, columns = 3, n = 3;	//此时的rows就是matlab中的npts，n是主成分
